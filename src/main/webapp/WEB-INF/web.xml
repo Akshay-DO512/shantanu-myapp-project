@@ -1,0 +1,11 @@
+
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" version="6.0">
+    <servlet>
+        <servlet-name>UserServlet</servlet-name>
+        <servlet-class>com.example.webapp.controller.UserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserServlet</servlet-name>
+        <url-pattern>/addUser</url-pattern>
+    </servlet-mapping>
+</web-app>
